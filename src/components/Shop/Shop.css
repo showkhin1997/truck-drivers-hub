@@ -1,0 +1,9 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.drivers-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

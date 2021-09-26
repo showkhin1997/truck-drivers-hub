@@ -1,0 +1,33 @@
+.driver-card{
+  background-color: rgba(255, 246, 241, 0.945);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px;
+  width: 320px;
+  box-shadow: 2px 5px 5px gray;
+}
+.card-image{
+  width: 90%;
+  height: 200px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 2px gray;
+}
+.driver-details{
+  text-align: center;
+  padding: 20px;
+}
+
+.driver-details button{
+  background-color: orange;
+  padding: 6px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: 400px;
+  font-size: 20px;
+  width: 150px;
+  margin-bottom: 10px;
+}
