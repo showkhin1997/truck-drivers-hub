@@ -7,12 +7,14 @@
     color: rgba(255, 68, 0, 0.822);
     font-style: italic;
     margin-bottom: -10px;
+    margin-top: -10px;
 }
 .header-text{
-    color: rgb(0, 162, 255);
+    color: rgb(0, 138, 218);
     font-style: italic;
     font-weight: 600;
     margin-bottom: 40px;
+    margin-left: 130px;
 }
 .header-container span{
     color: rgba(0, 0, 0, 0.918);
@@ -23,6 +25,7 @@ nav{
     background-color: rgb(201, 236, 255);
     line-height: 70px;
     margin-bottom: 40px;
+    border: 1px solid lightgray;
 }
 nav a{
     text-decoration: none;
@@ -61,4 +64,11 @@ nav button{
 .total-bugget{
  font-size: 35px;
  font-weight: 600;
+ background-color: rgb(224, 238, 255);
+ width: 30%;
+ margin: auto;
+ color: rgba(233, 80, 24, 0.897);
+ line-height: 60px;
+ border-radius: 10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }

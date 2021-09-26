@@ -11,7 +11,7 @@ const drivers = [
     {
         id: 123412,
         name: 'James Cameron',
-        country: 'California',
+        city: 'California',
         age: 56,
         rating: 4.0,
         salary: 45000,

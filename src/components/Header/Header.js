@@ -14,7 +14,7 @@ const Header = () => {
                 <input type="text" placeholder="search your driver" />
                 <button>Search</button>
             </nav>
-            <p className="total-bugget">Total Bugget: $100000</p>
+            <p className="total-bugget">Total Budget: $100000</p>
         </div>
     );
 };

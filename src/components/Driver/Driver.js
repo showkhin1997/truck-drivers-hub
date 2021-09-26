@@ -6,7 +6,7 @@ import Rating from 'react-rating';
 
 
 const Driver = (props) => {
-    console.log(props.driver)
+    // console.log(props)
     const { name, age, img, city, rating, salary } = props.driver;
     const buttonIcon = <FontAwesomeIcon icon={faUserPlus} />
 
@@ -24,7 +24,7 @@ const Driver = (props) => {
                     readonly
                 ></Rating> </p>
                 <h3><small>Salary:</small> ${salary}</h3>
-                <button>{buttonIcon} <span className="button-text">Hire Now</span> </button>
+                <button onClick={() => props.handaleAddToCart(props.driver)}>{buttonIcon} <span className="button-text">Hire Now</span> </button>
             </div>
         </div>
     );
