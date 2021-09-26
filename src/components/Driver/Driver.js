@@ -6,7 +6,6 @@ import Rating from 'react-rating';
 
 
 const Driver = (props) => {
-    // console.log(props)
     const { name, age, img, city, rating, salary } = props.driver;
     const buttonIcon = <FontAwesomeIcon icon={faUserPlus} />
 

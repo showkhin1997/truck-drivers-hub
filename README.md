@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Truck Driver's Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped abd react with [Taruck Driver's Hub](https://the-drivers-hub-7fef46.netlify.app/).
 
 ## Available Scripts
 
