@@ -1,10 +1,10 @@
 .driver-card{
-  background-color: rgba(255, 246, 241, 0.945);
+  background-color: rgba(255, 250, 248);
   border: 1px solid gray;
   border-radius: 5px;
   margin: 20px;
-  width: 320px;
-  box-shadow: 2px 5px 5px gray;
+  width: 340px;
+  box-shadow: 2px 2px 12px gray;
 }
 .card-image{
   width: 90%;
