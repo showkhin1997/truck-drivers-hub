@@ -21,13 +21,24 @@
 }
 
 .driver-details button{
-  background-color: orange;
+  background-color: rgb(245, 159, 0);
   padding: 6px;
   margin-left: 10px;
   border-radius: 5px;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-weight: 400px;
   font-size: 20px;
   width: 150px;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 2px gray;
+}
+.button-text{
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+  font-weight: 600;
+  text-shadow: 2px 1px 2px gray;
+}
+.rating-icon{
+  color: rgb(235, 199, 0);
+  padding: 2px;
 }
