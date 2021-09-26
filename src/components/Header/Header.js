@@ -11,7 +11,7 @@ const Header = () => {
                 <a href="/home">Home</a>
                 <a href="/markets">Markets</a>
                 <a href="/policies">Policies</a>
-                <a href="about">About us</a>
+                <a href="/about">About us</a>
                 <input type="text" placeholder="search your driver" />
                 <Button variant="primary">Search</Button>{' '}
             </nav>

@@ -1,17 +1,26 @@
 .cart-container{
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    height: 20%;
+    padding: 8px;
+}
+.cart-title-total{
+    background-color: rgb(238, 249, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
 }
 
 .cart-title{
-    color: rgb(212, 138, 0);
+    color: rgb(224, 146, 0);
     text-align: center;
     font-size: 35px;
-    margin-top: -10px;
+    margin-top: 5px;
 }
 .total-driver-added{
     color: rgb(0, 0, 170);
     font-size: 25px;
+    padding: 5px;
+}
+
+.driver-name{
+    background-color: rgb(238, 249, 255);
+   
 }

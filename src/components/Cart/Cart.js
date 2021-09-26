@@ -12,13 +12,16 @@ const Cart = (props) => {
     }
 
     return (
-        <div>
-            <h1 className="cart-title">Cart</h1>
-            <br />
-            <h2 className="total-driver-added">Total Drivers Added: {props.cart.length}</h2>
-            <h3>Total Cost: ${total}</h3>
-            <br />
-            <Table striped bordered hover>
+        <div className="cart-container">
+            <div className="cart-title-total">
+                <h1 className="cart-title">Cart</h1>
+                <hr />
+                <br />
+                <h2 className="total-driver-added">Total Drivers Added: {props.cart.length}</h2>
+                <h3>Total Cost: ${total}</h3>
+            </div>
+
+            <Table striped bordered hover className="driver-name">
                 <thead>
                     <tr>
                         <th>Name</th>

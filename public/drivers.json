@@ -13,7 +13,7 @@
         "name": "James Cameron",
         "city": "California",
         "age": 56,
-        "rating": 4,
+        "rating": 4.2,
         "salary": 45000,
         "img": "https://www.returnloads.net/getattachment/e8103de1-7727-4d9a-a9bf-e4f04ba424d7/Famous-Truck-Drivers-James-Cameron.jpg"
     },
@@ -40,7 +40,7 @@
         "name": "Viggo Mortenson",
         "city": "New York",
         "age": 50,
-        "rating": 3,
+        "rating": 3.7,
         "salary": 36000,
         "img": "https://www.returnloads.net/getattachment/55918422-b800-4398-94fa-2c754d70c738/Celebrity-truckers-Viggo-Mortenson.jpg"
     },

@@ -51,9 +51,8 @@ nav input{
 }
 
 nav button{
-    background-color: rgb(245, 159, 0);
     padding: 6px;
-    margin-left: 10px;
+    margin-left: 5px;
     border-radius: 5px;
     color: whitesmoke;
     font-weight: 400px;
