@@ -1,4 +1,5 @@
 import React from 'react';
+import { Table } from 'react-bootstrap';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -12,9 +13,25 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h1>Cart</h1>
-            <h2>Total Drivers Added: {props.cart.length}</h2>
+            <h1 className="cart-title">Cart</h1>
+            <br />
+            <h2 className="total-driver-added">Total Drivers Added: {props.cart.length}</h2>
             <h3>Total Cost: ${total}</h3>
+            <br />
+            <Table striped bordered hover>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {
+                            cart.map(driver => <p>{driver.name}</p>)
+                        }
+                    </tr>
+                </tbody>
+            </Table>
         </div>
     );
 };

@@ -6,15 +6,16 @@
     font-weight: 700;
     color: rgba(255, 68, 0, 0.822);
     font-style: italic;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     margin-top: -10px;
 }
 .header-text{
-    color: rgb(0, 138, 218);
+    color: rgb(0, 110, 173);
     font-style: italic;
     font-weight: 600;
     margin-bottom: 40px;
     margin-left: 130px;
+    font-size: 30px;
 }
 .header-container span{
     color: rgba(0, 0, 0, 0.918);
@@ -44,7 +45,7 @@ nav input{
     border-radius: 5px;
     border: 1px solid gray;
     width: 20%;
-    height: 25px;
+    height: 32px;
     line-height: 30px;
     margin-left: 100px;
 }

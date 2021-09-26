@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import './Header.css'
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
                 <a href="/policies">Policies</a>
                 <a href="about">About us</a>
                 <input type="text" placeholder="search your driver" />
-                <button>Search</button>
+                <Button variant="primary">Search</Button>{' '}
             </nav>
             <p className="total-bugget">Total Budget: $100000</p>
         </div>
