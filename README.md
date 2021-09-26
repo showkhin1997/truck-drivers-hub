@@ -1,6 +1,6 @@
 # Truck Driver's Hub
 
-This project was bootstrapped abd react with [Taruck Driver's Hub](https://the-drivers-hub-7fef46.netlify.app/).
+This project was build by bootstrapped and react with [Taruck Driver's Hub](https://the-drivers-hub-7fef46.netlify.app/).
 
 ## About The Project
 
