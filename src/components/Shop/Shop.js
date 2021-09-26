@@ -14,7 +14,6 @@ const Shop = () => {
     }, []);
 
     const handaleAddToCart = driver => {
-        console.log(driver)
         const newCart = [...cart, driver];
         setCart(newCart);
     }

@@ -1,4 +1,4 @@
-const drivers = [
+/* const drivers = [
     {
         id: 123411,
         name: 'Charles Bronson',
@@ -107,4 +107,4 @@ const drivers = [
         salary: 31000,
         img: 'https://www.returnloads.net/getattachment/9c3993a6-98b1-4bdf-9818-752097303527/truckers-who-are-famous-Elvis-Presley.jpg'
     },
-]
+] */
